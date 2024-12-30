@@ -14,4 +14,5 @@ const getCoordinates = async (cityName) => {
     }
 };
 
-export {getCoordinates};
+getCoordinates('Mumbai')
+module.exports = { getCoordinates };
